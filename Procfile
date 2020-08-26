@@ -1,2 +1,2 @@
-web: gunicorn adminCutomization.wsgi --log-file
+web: gunicorn  --log-file adminCutomization.wsgi
 release : python manage.py migrate
