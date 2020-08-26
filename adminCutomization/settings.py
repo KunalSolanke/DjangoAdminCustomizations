@@ -8,7 +8,7 @@ SECRET_KEY =config("SECRET")
 DEBUG = config('DEBUG')
 
 ALLOWED_HOSTS = [
-    'admincustom.herokuapp.com'
+    'admincustom.herokuapp.com','127.0.0.1'
 ]
 
 
