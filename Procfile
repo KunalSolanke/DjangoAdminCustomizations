@@ -1,1 +1,1 @@
-web: gunicorn adminCustomization.wsgi --log-file -
+web: gunicorn adminCutomization.wsgi --log-file -
