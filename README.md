@@ -26,13 +26,17 @@ Imp files
 ### Useful pics
 
 #### Functions page
-<img src= "./Screenshots/change_status.png" alt="hello"></img>
-#### mail Form
-<img src= "./Screenshots/mail_form.png"></img>
-#### send_mail
+<img src= "./Screenshots/functions_page.png"></img>
+#### send mail
 <img src= "./Screenshots/send_mail.png"></img>
+
+#### Mail Form
+<img src= "./Screenshots/mail_form.png"></img>
+
 #### User Metrics
 <img src= "./Screenshots/user_metrics.png"></img>
+
+
 #### Change Status
 
 <img src= "./Screenshots/change_status.png"></img>
