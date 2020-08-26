@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'accounts',
+    'whitenoise.runserver_nostatic'
 
 ]
 
@@ -33,6 +34,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'adminCutomization.urls'
@@ -101,6 +103,7 @@ AUTH_USER_MODEL = 'accounts.User'
 STATIC_URL = '/static/'
 STATIC_ROOT = Path.joinpath(BASE_DIR,'assets')
 STATICFILES_DIRs = [Path.joinpath(BASE_DIR,'static')]
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = [Path.joinpath(BASE_DIR,'media')]
